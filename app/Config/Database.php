@@ -36,6 +36,8 @@ class Database extends \CodeIgniter\Database\Config
 		'password' => 'Pepen2406',
 		'database' => 'db_simpers',
 		'DBDriver' => 'MySQLi',
+		//'database' => ':memory:',
+		//'DBDriver' => 'SQLite3',
 		'DBPrefix' => '',
 		'pConnect' => false,
 		'DBDebug'  => (ENVIRONMENT !== 'production'),

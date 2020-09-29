@@ -7,7 +7,7 @@ class KaryawanOc extends Migration
 	public function up()
 	{
 		$this->forge->addField([
-			'id_karyawan'           => [
+			'id_karyawan_oc'           => [
 				'type'              => 'INT',
 				'constraint'        => 15,
 				'unsigned'          => TRUE,
@@ -132,7 +132,6 @@ class KaryawanOc extends Migration
 			],
 			'last_upload'         => [
 				'type'              => 'date',
-				'constraint'        => 'DATE',
 				'default'        	=> '1970-01-01',
 			],
 			'soft_delete'         => [

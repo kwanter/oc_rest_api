@@ -33,4 +33,22 @@ class Validation
 	//--------------------------------------------------------------------
 	// Rules
 	//--------------------------------------------------------------------
+
+	public $karyawan_oc = [
+		'nama_karyawan'    => 'required',
+		'tmpt_lahir'       => 'required',
+		'tgl_lahir'		   => 'required',
+	];
+	 
+	public $karyawan_oc_errors = [
+		'nama_karyawan'=> [
+			'required'  => 'Nama karyawan wajib diisi.'
+		],
+		'tmpt_lahir'=> [
+			'required'  => 'Tempat lahir wajib diisi.'
+		],
+		'tgl_lahir'=> [
+			'required'  => 'Tanggal lahir wajib diisi.'
+		]
+	];
 }
